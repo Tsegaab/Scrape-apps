@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	
+     <LinearLayout 
+     android:orientation="vertical"
+     android:gravity="center"
+     android:layout_height="fill_parent"
+     android:layout_width="fill_parent"
+     android:paddingLeft="70dip"
+     android:paddingRight="70dip"
+     android:background="@drawable/backgd"
+     >
+     <TextView
+	 android:layout_width="fill_parent"
+	 android:layout_height="wrap_content"
+     android:text="@string/hello" />     
+     
+     <TextView android:text="Options" android:layout_width="fill_parent"
+			android:gravity="center" android:textStyle="bold" android:textColor="@android:color/white"
+			android:layout_height="wrap_content" />
+			
+			<Button 
+			android:text="Continue" 
+			android:layout_width="fill_parent"
+			android:id="@+id/continue_button"
+			android:layout_height="wrap_content"/>			
+		<Button 
+		android:text="New Game" 
+		android:id="@+id/newgame_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+			 />
+		<Button android:text="About" 
+		android:layout_width="fill_parent"
+			android:id="@+id/about_button"
+			android:layout_height="wrap_content"
+			 />
+		<Button android:text="Help" 
+		android:id="@+id/help_button"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+			 />
+		<Button
+		android:text="Exit" 
+		android:layout_width="fill_parent"
+		android:id="@+id/exit_button"
+		android:layout_height="wrap_content"
+			 />
+     </LinearLayout>
+		
+		
+</LinearLayout>
